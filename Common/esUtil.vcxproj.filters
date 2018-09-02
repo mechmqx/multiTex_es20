@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{351d20a2-28bc-4c0d-82bc-a61a1b0a6186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3b1e5050-43e7-49b5-bb89-1e9680efcfb7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Win32\esUtil_TGA.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Win32\esUtil_win32.c">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\esShader.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\esShapes.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\esTransform.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\esUtil.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\esUtil_win.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\esUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
